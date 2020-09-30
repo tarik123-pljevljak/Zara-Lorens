@@ -1,0 +1,363 @@
+body{
+    background-color: white;
+    margin: 30px;
+
+    
+    &.homepage {
+        .section-homepage{
+            background-color: #d5b7ff;
+            .navbar-brand{
+                display: inline-block;
+                font-size: 26px;
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 30px;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: -20px;
+                    top: 0px;
+                    height: 75%;
+                    width: 6px;
+                    background-color: white;
+                    margin-top: 10px;
+                }
+            }
+            .navbar{
+                padding: 35px 45px 0px 40px;
+                .navbar-nav{
+                    .nav-item{
+                        padding: 0px 20px;
+                        .nav-link{
+                            color: white;
+                            font-size: 16px;
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            letter-spacing: 4px;
+                            padding: 0px;
+                        }
+                    }
+                }
+            }
+        }
+        .welcome-text{
+            padding: 245px 0px 275px 45px;
+            h6{
+                font-size: 26px;
+                color: white;
+                text-transform: uppercase;
+                font-size: 26px;
+                letter-spacing: 3px;
+                margin-bottom: 50px;
+                font-weight: bold;
+            }
+            p{
+                max-width: 514px;
+                color: white;
+                font-size: 16px;
+                margin-bottom: 80px;
+            }
+            .buttons{
+                display: flex;
+                align-items: center;
+                @media screen and (max-width: 600px) {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                a{
+                    width: 255px;
+                    height: 55px;
+                    font-size: 16px;
+                    letter-spacing: 8px;
+                    border-radius: 30px;
+                    border: 2px solid white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    text-decoration: none;
+                    @media screen and (max-width: 600px) {
+                        width: 200px;
+                        height: 55px;
+                        font-size: 14px;
+                        letter-spacing: 6px;
+                    }
+                    &:first-of-type{
+                        background-color: white;
+                        border-color: transparent;
+                        color: #664c4c;
+                        margin-right: 20px;
+                        @media screen and (max-width: 600px) {
+                            margin-right: 0;
+                            margin-bottom: 20px;
+                        }
+                    }
+                    &:last-of-type{ 
+                        background-color: transparent;
+                        border-color: white;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    &.about-me {
+        .navbar-brand{
+            display: inline-block;
+            font-size: 26px;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 30px;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                left: -20px;
+                top: 0px;
+                height: 75%;
+                width: 6px;
+                background-color: black;
+                margin-top: 10px;
+            }
+        }
+        .navbar{
+            padding: 35px 45px 0px 40px;
+            margin-bottom: 115px;
+            .navbar-nav{
+                .nav-item{
+                    padding: 0px 20px;
+                    .nav-link{
+                        color: black;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        letter-spacing: 4px;
+                        padding: 0px;
+                        &:hover{
+                            border-bottom: 1px solid #7F7F7F;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about{
+        img{
+            height: 470px;
+            width: 410;
+            margin-bottom: 55px;
+        }
+        h5{
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+        p.about-me2{
+            color: #4C4C4C;
+            font-weight: bold;
+            margin-bottom: 110px;
+            max-width: 372px;
+        }
+        p{
+            color: black;
+            font-weight: bold;
+            max-width: 252px;
+            margin-bottom: 0px;
+        }
+        .time{
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+        p.hire{
+            color: #4C4C4C;
+            font-weight: bold;
+            margin-bottom: 45px;
+        }
+        .cv{
+            display: inline-block;
+            color: black;
+            border-bottom:2px solid #7F7F7F;
+            margin-bottom: 200px;
+            font-weight: bold;
+        }
+    }
+
+
+    .section-works{
+        text-align: center;
+        h5{
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+        }
+        p{
+            color: #7F7F7F;
+            font-weight: bold;
+            margin-bottom: 56px;
+        }
+    }
+    .image-box {
+        position: relative;
+        &:hover {
+            .hover-text {
+                display: block;
+            }
+        }
+        .hover-text {
+            display: none;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 15px;
+            padding: 20px 40px;
+        }
+    }
+    .products{
+        img{
+            margin-bottom: 45px;
+        }
+        h5{
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p{
+            font-weight: bold;
+            color: #4C4C4C;
+        }
+        time{
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+        .lav{
+            display: inline-block;
+            margin-bottom: 90px;
+            width: 255px;
+            height: 55px;
+            font-size: 16px;
+            letter-spacing: 8px;
+            border-radius: 30px;
+            border: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            @media screen and (max-width: 600px) {
+                width: 200px;
+                height: 55px;
+                font-size: 14px;
+                letter-spacing: 6px;
+            }
+            &:first-of-type{
+                background-color: black;
+                border-color: transparent;
+                color: white;
+                margin-right: 20px;
+                @media screen and (max-width: 600px) {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        h4{
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .subscribe{
+            color: black;
+            border-bottom: 2px solid #7F7F7F;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .product-designer{
+            margin-bottom: 40px;
+        }
+    }
+    .contact-me{
+        h6{
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #7F7F7F;
+            margin-bottom: 110px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .form-group{
+                .form-control{
+                    border: none;
+                    border-bottom: 3px solid #B2B2B2;
+                    border-radius: 0px;
+                    margin-bottom: 50px;
+                    font-size: 16px;
+                    color: #B2B2B2;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    padding-left: 0px;
+                    &:focus{
+                        box-shadow: none;
+                    }
+                    &::placeholder{
+                        font-size: 16px;
+                        color: #B2B2B2;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+                }
+            }
+            button{
+                display: inline-block;
+                margin-bottom: 90px;
+                width: 255px;
+                height: 55px;
+                font-size: 16px;
+                letter-spacing: 8px;
+                border-radius: 30px;
+                border: 2px solid white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-decoration: none;
+                @media screen and (max-width: 600px) {
+                    width: 200px;
+                    height: 55px;
+                    font-size: 14px;
+                    letter-spacing: 6px;
+                }
+                &:first-of-type{
+                    background-color: black;
+                    border-color: transparent;
+                    color: white;
+                    margin-right: 20px;
+                    @media screen and (max-width: 600px) {
+                        margin-right: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }   
+    }
+
+}

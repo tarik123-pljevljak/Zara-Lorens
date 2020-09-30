@@ -1,0 +1,466 @@
+body {
+  background-color: white;
+  margin: 30px;
+}
+
+body.homepage .section-homepage {
+  background-color: #d5b7ff;
+}
+
+body.homepage .section-homepage .navbar-brand {
+  display: inline-block;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  position: relative;
+}
+
+body.homepage .section-homepage .navbar-brand::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  height: 75%;
+  width: 6px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+body.homepage .section-homepage .navbar {
+  padding: 35px 45px 0px 40px;
+}
+
+body.homepage .section-homepage .navbar .navbar-nav .nav-item {
+  padding: 0px 20px;
+}
+
+body.homepage .section-homepage .navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4px;
+  padding: 0px;
+}
+
+body.homepage .welcome-text {
+  padding: 245px 0px 275px 45px;
+}
+
+body.homepage .welcome-text h6 {
+  font-size: 26px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+body.homepage .welcome-text p {
+  max-width: 514px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+body.homepage .welcome-text .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  body.homepage .welcome-text .buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+body.homepage .welcome-text .buttons a {
+  width: 255px;
+  height: 55px;
+  font-size: 16px;
+  letter-spacing: 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  body.homepage .welcome-text .buttons a {
+    width: 200px;
+    height: 55px;
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+}
+
+body.homepage .welcome-text .buttons a:first-of-type {
+  background-color: white;
+  border-color: transparent;
+  color: #664c4c;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body.homepage .welcome-text .buttons a:first-of-type {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+body.homepage .welcome-text .buttons a:last-of-type {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+body.about-me .navbar-brand {
+  display: inline-block;
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  position: relative;
+}
+
+body.about-me .navbar-brand::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  height: 75%;
+  width: 6px;
+  background-color: black;
+  margin-top: 10px;
+}
+
+body.about-me .navbar {
+  padding: 35px 45px 0px 40px;
+  margin-bottom: 115px;
+}
+
+body.about-me .navbar .navbar-nav .nav-item {
+  padding: 0px 20px;
+}
+
+body.about-me .navbar .navbar-nav .nav-item .nav-link {
+  color: black;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4px;
+  padding: 0px;
+}
+
+body.about-me .navbar .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 1px solid #7F7F7F;
+}
+
+body .about img {
+  height: 470px;
+  width: 410;
+  margin-bottom: 55px;
+}
+
+body .about h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+body .about p.about-me2 {
+  color: #4C4C4C;
+  font-weight: bold;
+  margin-bottom: 110px;
+  max-width: 372px;
+}
+
+body .about p {
+  color: black;
+  font-weight: bold;
+  max-width: 252px;
+  margin-bottom: 0px;
+}
+
+body .about .time {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+body .about p.hire {
+  color: #4C4C4C;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+body .about .cv {
+  display: inline-block;
+  color: black;
+  border-bottom: 2px solid #7F7F7F;
+  margin-bottom: 200px;
+  font-weight: bold;
+}
+
+body .section-works {
+  text-align: center;
+}
+
+body .section-works h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+body .section-works p {
+  color: #7F7F7F;
+  font-weight: bold;
+  margin-bottom: 56px;
+}
+
+body .image-box {
+  position: relative;
+}
+
+body .image-box:hover .hover-text {
+  display: block;
+}
+
+body .image-box .hover-text {
+  display: none;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 15px;
+  padding: 20px 40px;
+}
+
+body .products img {
+  margin-bottom: 45px;
+}
+
+body .products h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body .products p {
+  font-weight: bold;
+  color: #4C4C4C;
+}
+
+body .products time {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+body .products .lav {
+  display: inline-block;
+  margin-bottom: 90px;
+  width: 255px;
+  height: 55px;
+  font-size: 16px;
+  letter-spacing: 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  body .products .lav {
+    width: 200px;
+    height: 55px;
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+}
+
+body .products .lav:first-of-type {
+  background-color: black;
+  border-color: transparent;
+  color: white;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body .products .lav:first-of-type {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+body .products h4 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+body .products .subscribe {
+  color: black;
+  border-bottom: 2px solid #7F7F7F;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body .products .product-designer {
+  margin-bottom: 40px;
+}
+
+body .contact-me h6 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+body .contact-me p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7F7F7F;
+  margin-bottom: 110px;
+}
+
+body .contact-me form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body .contact-me form .form-group .form-control {
+  border: none;
+  border-bottom: 3px solid #B2B2B2;
+  border-radius: 0px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: #B2B2B2;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+body .contact-me form .form-group .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .contact-me form .form-group .form-control::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #B2B2B2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body .contact-me form .form-group .form-control:-ms-input-placeholder {
+  font-size: 16px;
+  color: #B2B2B2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body .contact-me form .form-group .form-control::-ms-input-placeholder {
+  font-size: 16px;
+  color: #B2B2B2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body .contact-me form .form-group .form-control::placeholder {
+  font-size: 16px;
+  color: #B2B2B2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body .contact-me form button {
+  display: inline-block;
+  margin-bottom: 90px;
+  width: 255px;
+  height: 55px;
+  font-size: 16px;
+  letter-spacing: 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  body .contact-me form button {
+    width: 200px;
+    height: 55px;
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+}
+
+body .contact-me form button:first-of-type {
+  background-color: black;
+  border-color: transparent;
+  color: white;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body .contact-me form button:first-of-type {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
